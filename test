@@ -1,0 +1,4 @@
+
+(Get-AppLockerPolicy -Local).RuleCollections
+Get-ChildItem -Path HKLM:Software\Policies\Microsoft\Windows\SrpV2 -Recurse
+reg query HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\SrpV2\Exe\560d03c2-b277-4331-8c59-bc7d4eb08359
