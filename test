@@ -1,8 +1,1 @@
-c:\windows\syswow64\WindowsPowerShell\v1.0\powershell.exe
-c:\windows\syswow64\WindowsPowerShell\v1.0\powershell_ise.exe
-c:\windows\sytem32\WindowsPowerShell\v1.0\powershell.exe
-c:\windows\sytem32\WindowsPowerShell\v1.0\powershell_ise.exe
-(Get-AppLockerPolicy -Local).RuleCollections
-Get-ChildItem -Path HKLM:Software\Policies\Microsoft\Windows\SrpV2 -Recurse
-reg query HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\SrpV2\Exe\560d03c2-b277-4331-8c59-bc7d4eb08359
-reg query HKLM /f password /t REG_SZ /s
+sss
